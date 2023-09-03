@@ -48,6 +48,7 @@ const Weather = () => {
           <h2 className="text-2xl">Min Temperature: {mintemperature}°C</h2>
           <h2 className="text-2xl">Humidity: {humidity}%</h2>
           <h2 className="text-2xl">Wind: {wind} m/s</h2>
+          good luck
         </div>
       </div>
     </div>
