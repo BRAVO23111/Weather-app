@@ -1,0 +1,57 @@
+/* Weather.css */
+
+/* Center the weather card vertically and horizontally */
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust to desired height */
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb); /* Gradient background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Weather card container */
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners for the card container */
+  padding: 20px;
+  text-align: center;
+  width: 80%; /* Adjust the card width as needed */
+  max-width: 400px; /* Set a maximum width for the card */
+  height: 300px;
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+/* Input container */
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Input field styles */
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 999px; /* Create a round input field */
+}
+
+/* Button styles */
+.input-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 999px; /* Create a round button */
+  cursor: pointer;
+}
+
+/* ... Other CSS styles ... */
